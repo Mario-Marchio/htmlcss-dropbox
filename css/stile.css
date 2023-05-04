@@ -11,10 +11,8 @@ body{
 header{
     height: 100px;
     border: 1px solid #000;
-    display: flex;
 }
 nav{
-    display: flex;
     height: 100%;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +28,16 @@ h2{
     padding: 40px 0;
     border: 1px solid #000;
 }
-
+/*flex property*/
+.flex{
+    display: flex;
+}
+.j-c-c{
+    justify-content: center;
+}
+.a-i-c{
+    align-items: center;
+}
 /*header*/
 
 .nav-left{
@@ -61,7 +68,6 @@ h2{
 }
 .first-section-container{
     height: calc(100% - 220px);
-    display: flex;
     border: 1px solid #000;
 }
 .left-first-section{
@@ -88,4 +94,7 @@ h2{
 }
 .billing{
     padding-bottom: 40px;
+}
+.team{
+    height: 45px;
 }
