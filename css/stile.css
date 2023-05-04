@@ -1,10 +1,13 @@
+/*general*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
-/*header*/
-
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 header{
     height: 100px;
     border: 1px solid #000;
@@ -15,7 +18,21 @@ nav{
     height: 100%;
     justify-content: space-between;
     align-items: center;
+}  
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    border: 1px solid #000;
 }
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 40px 0;
+    border: 1px solid #000;
+}
+
+/*header*/
+
 .nav-left{
     border: 1px solid #000;
     flex-basis: 50%;
@@ -24,4 +41,51 @@ nav{
     border: 1px solid #000;
     flex-basis: 50%;
     flex-direction: row-reverse;
+}
+/*main*/
+
+.container{
+    max-width: 1200px;
+    height:600px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+.smaller-container{
+    max-width: 1000px;
+    margin: 20px auto auto;
+    border: 1px solid #000;
+}
+.first-section{
+    background-color: #B4D0E7;
+    height: 600px;
+}
+.first-section-container{
+    height: calc(100% - 220px);
+    display: flex;
+    border: 1px solid #000;
+}
+.left-first-section{
+    flex-basis: 30%;
+    height: 100%;
+    border: 1px solid #000;
+}
+.right-first-section{
+    flex-basis: 70%;
+    height: 100%;
+    border: 1px solid #000;
+}
+.row{
+    display: flex;
+    column-gap: 50px;
+}
+.column{
+    min-height: 700px;
+    flex-basis: calc(100% /3);
+}
+.card{
+    border: 1px solid #000;
+    height: 700px;
+}
+.billing{
+    padding-bottom: 40px;
 }
