@@ -27,6 +27,12 @@ h2{
     font-size: 40px;
     border: 1px solid #000;
 }
+section{
+    margin-top: 100px;
+}
+footer{
+    background-color: #000;
+}
 /*flex property*/
 .flex{
     display: flex;
@@ -127,4 +133,38 @@ h2{
 }
 .margin-bottom-db-businnes{
     margin-bottom: 80px;
+}
+.square{
+    border: 1px solid #000;
+    width: calc(100vw / 3);
+    height:calc(100vw / 3) ;
+    flex-wrap: wrap;
+}
+.small-square{
+    flex-basis:50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+.smaller-container-left{
+    border: 1px solid #000;
+    width: 50%;
+}
+.smaller-container-right{
+    border: 1px solid #000;
+    flex-basis: 50%;
+    flex-direction: row-reverse;
+}
+.h-60{
+    height: 60px;
+}
+.padding-15-45{
+    pad: 15px 45px;
+}
+.border{
+    border: 1px solid #000;
+}
+.ul-footer{
+    flex-basis: calc(100% / 5);
 }
