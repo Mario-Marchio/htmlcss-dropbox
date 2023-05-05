@@ -19,11 +19,16 @@ nav{
 h1{
     font-size: 80px;
     font-weight: bold;
-    padding:50px ; 
+    padding:50px 0; 
 }
 h2{
     font-weight: bold;
     font-size: 40px;
+    
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
     
 }
 section{
@@ -34,6 +39,7 @@ footer{
 }
 img{
     display: block;
+    max-width: 100%;
 }
 ul{
     list-style-type: none;
@@ -93,7 +99,7 @@ header li{
 }
 .first-section{
     background-color: #B4D0E7;
-    height: 600px;
+    height: 710px;
 }
 .first-section-container{
     height: calc(100% - 220px);
@@ -112,17 +118,18 @@ header li{
 .row{
     display: flex;
     column-gap: 50px;
+    margin-top: 30px;
 }
 .column{
     min-height: 700px;
     flex-basis: calc(100% /3);
 }
 .card{
-    
     height: 700px;
 }
 .billing{
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    margin-right:50px;
 }
 .team{
     height: 45px;
@@ -186,9 +193,38 @@ header li{
 .padding-15-45{
     pad: 15px 45px;
 }
-.border{
-    
-}
 .ul-footer{
     flex-basis: calc(100% / 5);
+}
+.m-b-100{
+    margin-bottom: 100px;
+}
+.m-t-50{
+    margin-top: 50px;
+}
+.m-left-20{
+    margin-left: 20px;
+}
+.m-b-50{
+    margin-bottom: 50px;
+}
+.chekb-b{
+    border: 3px solid #0061FF;
+    border-radius: 50%; 
+    color:transparent ;
+}
+.chekb-g{
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    color:transparent ;
+}
+.border-gray{
+    border: 1px solid #D0D0D3;
+}
+.border-gray-bottom{
+    border-bottom: 1px solid #D0D0D3;
+}
+
+.color-lgrey{
+    color: lightgray;
 }
