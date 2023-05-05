@@ -25,7 +25,6 @@ h1{
 h2{
     font-weight: bold;
     font-size: 40px;
-    padding: 40px 0;
     border: 1px solid #000;
 }
 /*flex property*/
@@ -97,4 +96,35 @@ h2{
 }
 .team{
     height: 45px;
+}
+.padding-0-40px{
+    padding: 40px 0;
+}
+.partner-dropbox-left{
+    border: 1px solid #000;
+    flex-basis: 60%;
+    height: 100px;
+}
+.partner-dropbox-right{
+    border: 1px solid #000;
+    flex-basis: 40%;
+    height: 100px;
+}
+.margin-top-partner-dropbox{
+    margin-top: 20px;
+}
+.row-db-businnes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column-db-businnes{
+    min-height: 200px;
+    flex-basis: calc(100% /3)
+}
+.card-db-businnes{
+    border: 1px solid #000;
+    height: 200px;
+}
+.margin-bottom-db-businnes{
+    margin-bottom: 80px;
 }
