@@ -125,7 +125,7 @@ header li{
     flex-basis: calc(100% /3);
 }
 .card{
-    height: 700px;
+    height: 900px;
 }
 .billing{
     margin-bottom: 40px;
@@ -202,11 +202,17 @@ header li{
 .m-t-50{
     margin-top: 50px;
 }
+.m-t-30{
+    margin-top: 30px;
+}
 .m-left-20{
     margin-left: 20px;
 }
 .m-b-50{
     margin-bottom: 50px;
+}
+.m-l-20{
+    margin-left: 20px;
 }
 .chekb-b{
     border: 3px solid #0061FF;
@@ -227,4 +233,15 @@ header li{
 
 .color-lgrey{
     color: lightgray;
+}
+.wrap{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+.width-55{
+    width: 55px;
+}
+.c-lightblue{
+ color: #187FFF;
 }
