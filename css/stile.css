@@ -9,29 +9,34 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    height: 100px;
-    border: 1px solid #000;
+    height: 80px;
+    
 }
 nav{
-    height: 100%;
     justify-content: space-between;
     align-items: center;
 }  
 h1{
     font-size: 80px;
     font-weight: bold;
-    border: 1px solid #000;
+    padding:50px ; 
 }
 h2{
     font-weight: bold;
     font-size: 40px;
-    border: 1px solid #000;
+    
 }
 section{
     margin-top: 100px;
 }
 footer{
     background-color: #000;
+}
+img{
+    display: block;
+}
+ul{
+    list-style-type: none;
 }
 /*flex property*/
 .flex{
@@ -43,16 +48,35 @@ footer{
 .a-i-c{
     align-items: center;
 }
+/*buttons*/
+.btn{
+    display: inline-block;
+    padding:10px 20px;
+}
+.small-btn{
+    padding: 5px 10px;
+}
+.main-btn{
+    color: #fff;
+    background-color: #0061ff;
+}
+.secondary-btn{
+    color: black;
+    background-color: #fff;
+}
 /*header*/
 
 .nav-left{
-    border: 1px solid #000;
+    
     flex-basis: 50%;
 }
 .nav-right{
-    border: 1px solid #000;
+    
     flex-basis: 50%;
     flex-direction: row-reverse;
+}
+header li{
+    padding: 0 15px;
 }
 /*main*/
 
@@ -60,12 +84,12 @@ footer{
     max-width: 1200px;
     height:600px;
     margin: 0 auto;
-    border: 1px solid #000;
+    
 }
 .smaller-container{
     max-width: 1000px;
     margin: 20px auto auto;
-    border: 1px solid #000;
+    
 }
 .first-section{
     background-color: #B4D0E7;
@@ -73,17 +97,17 @@ footer{
 }
 .first-section-container{
     height: calc(100% - 220px);
-    border: 1px solid #000;
+    
 }
 .left-first-section{
     flex-basis: 30%;
     height: 100%;
-    border: 1px solid #000;
+    
 }
 .right-first-section{
     flex-basis: 70%;
     height: 100%;
-    border: 1px solid #000;
+    
 }
 .row{
     display: flex;
@@ -94,7 +118,7 @@ footer{
     flex-basis: calc(100% /3);
 }
 .card{
-    border: 1px solid #000;
+    
     height: 700px;
 }
 .billing{
@@ -107,12 +131,12 @@ footer{
     padding: 40px 0;
 }
 .partner-dropbox-left{
-    border: 1px solid #000;
+    
     flex-basis: 60%;
     height: 100px;
 }
 .partner-dropbox-right{
-    border: 1px solid #000;
+    
     flex-basis: 40%;
     height: 100px;
 }
@@ -128,14 +152,14 @@ footer{
     flex-basis: calc(100% /3)
 }
 .card-db-businnes{
-    border: 1px solid #000;
+    
     height: 200px;
 }
 .margin-bottom-db-businnes{
     margin-bottom: 80px;
 }
 .square{
-    border: 1px solid #000;
+    
     width: calc(100vw / 3);
     height:calc(100vw / 3) ;
     flex-wrap: wrap;
@@ -145,14 +169,14 @@ footer{
     height: 50%;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
+    
 }
 .smaller-container-left{
-    border: 1px solid #000;
+    
     width: 50%;
 }
 .smaller-container-right{
-    border: 1px solid #000;
+    
     flex-basis: 50%;
     flex-direction: row-reverse;
 }
@@ -163,7 +187,7 @@ footer{
     pad: 15px 45px;
 }
 .border{
-    border: 1px solid #000;
+    
 }
 .ul-footer{
     flex-basis: calc(100% / 5);
