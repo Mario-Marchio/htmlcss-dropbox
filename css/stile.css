@@ -333,3 +333,9 @@ header li{
 .f-w-600{
     font-weight:600;
 }
+.c-purple{
+    color: #61082B;
+}
+.c-grey{
+    color: grey;
+}
