@@ -36,6 +36,7 @@ section{
 }
 footer{
     background-color: #000;
+    color: white;
 }
 img{
     display: block;
@@ -95,7 +96,6 @@ header li{
 
 .container{
     max-width: 1200px;
-    height:600px;
     margin: 0 auto;
     
 }
@@ -215,6 +215,9 @@ header li{
 .m-b-100{
     margin-bottom: 100px;
 }
+.m-t-150{
+    margin-top: 150px;
+}
 .m-t-75{
     margin-top: 75px;
 }
@@ -247,6 +250,9 @@ header li{
 }
 .m-l-75{
     margin-left: 75px;
+}
+.m-l-360{
+    margin-left: 360px;
 }
 .m-l--90{
     margin-left: -90px;
@@ -324,4 +330,6 @@ header li{
 .p-b-50{
     padding-bottom: 50px;
 }
-bo
+.f-w-600{
+    font-weight:600;
+}
