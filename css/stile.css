@@ -75,6 +75,7 @@ ul{
 .secondary-btn{
     color: black;
     background-color: #fff;
+    border: 1px solid black;
 }
 /*header*/
 
@@ -166,7 +167,7 @@ header li{
 }
 .card-db-businnes{
     
-    height: 200px;
+    height: 500px;
 }
 .margin-bottom-db-businnes{
     margin-bottom: 80px;
@@ -196,6 +197,9 @@ header li{
 .h-60{
     height: 60px;
 }
+.h-60{
+    height: 600px;
+}
 .padding-15-45{
     pad: 15px 45px;
 }
@@ -220,6 +224,9 @@ header li{
 .m-b-20{
     margin-bottom: 20px;
 }
+.m-b-30{
+    margin-bottom: 30px;
+}
 .m-b-50{
     margin-bottom: 50px;
 }
@@ -228,6 +235,12 @@ header li{
 }
 .m-l-20{
     margin-left: 20px;
+}
+.m-l-75{
+    margin-left: 75px;
+}
+.m-l--90{
+    margin-left: -90px;
 }
 .m-r-20{
     margin-right: 20px;
