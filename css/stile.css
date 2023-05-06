@@ -65,9 +65,6 @@ ul{
     display: inline-block;
     padding:10px 20px;
 }
-.small-btn{
-    padding: 5px 10px;
-}
 .main-btn{
     color: #fff;
     background-color: #0061ff;
@@ -76,6 +73,9 @@ ul{
     color: black;
     background-color: #fff;
     border: 1px solid black;
+}.third-btn{
+    color: black;
+    background-color: #fff;
 }
 /*header*/
 
@@ -183,6 +183,9 @@ header li{
     height: 50%;
     justify-content: center;
     align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .smaller-container-left{
@@ -197,17 +200,23 @@ header li{
 .h-60{
     height: 60px;
 }
-.h-60{
+.h-300{
+    height: 300px;
+}
+.h-600{
     height: 600px;
 }
 .padding-15-45{
-    pad: 15px 45px;
+    padding: 15px 45px;
 }
 .ul-footer{
     flex-basis: calc(100% / 5);
 }
 .m-b-100{
     margin-bottom: 100px;
+}
+.m-t-75{
+    margin-top: 75px;
 }
 .m-t-50{
     margin-top: 50px;
@@ -218,8 +227,8 @@ header li{
 .m-t-0{
     margin-top: 0px;
 }
-.m-left-20{
-    margin-left: 20px;
+.m-t--20{
+    margin-top: -20px;
 }
 .m-b-20{
     margin-bottom: 20px;
@@ -273,6 +282,46 @@ header li{
 .width-55{
     width: 55px;
 }
+.width-100{
+    width: 100px;
+}
 .c-lightblue{
  color: #187FFF;
 }
+.w-50{
+    width: 50%;
+}
+.bgc-red{
+    background-color: red ;
+}
+.bgc-purple{
+    background-color: #61082B ;
+}
+.bgc-l-blue{
+    background-color: #0093CE ;
+}
+.bgc-l-green{
+    background-color: #A2D39B ;
+}
+.bgc-red2{
+    background-color: #D5001F ;
+}
+.bgc-blue{
+    background-color: #0D2481 ;
+}
+.bgc-yellow{
+    background-color: #FFD830 ;
+}
+.bgc-l-gray2{
+    background-color: #B4D0E7 ;
+}
+.bgc-l-gray{
+    background-color: #F5F5F5 ;
+}
+.bgc-db-businnes{
+    background-color: #B4D0E7 ;
+}
+.p-b-50{
+    padding-bottom: 50px;
+}
+bo
